@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static', filename='stylesheet.css')}}">
+        <title>Home</title>
+    </head>
+    <body>
+    <h1>{{ msg }}</h1>
+    <ul>
+        <!-- Unordered list of nav pages passed from app.py-->
+        {% for item in nav.top %}
+            <li class="{{ 'active' if item.is_active else '' }}">
+                <a href="{{ item.url }}">{{ item.label }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    </body>
+</html>

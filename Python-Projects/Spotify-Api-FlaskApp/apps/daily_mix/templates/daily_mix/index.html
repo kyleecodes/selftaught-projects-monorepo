@@ -1,0 +1,15 @@
+{% block content %}
+    <div>
+        <h1>Daily Mix</h1>
+        <p style="font-size: 40px;">
+            Hi {{ user_display_name }}!
+        </p>
+        {% for key, value in playlists_data.items() %}
+            <p> {{ key }} </p>
+            <p> {{  value[0] }}!</p>
+            {% set img = value[1][0]['url'] %}
+            <img src = {{img}} width=300 height=300 alt="Daily Mix album art">
+        {% endfor %}
+    </div>
+{% endblock %}
+

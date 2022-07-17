@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+        <title>Spotify</title>
+    </head>
+    <body>
+        <h1>My last listened song</h1>
+    {% for song, artist in history.items() %}
+        <h2>{{song}} by {{artist}}</h2>
+    {% endfor %}
+    </body>
+</html>

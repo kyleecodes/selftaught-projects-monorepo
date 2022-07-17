@@ -1,0 +1,11 @@
+{% block content %}
+    <body>
+        <div>
+            <a href="{{ url_for('auth_bp.login') }}">
+                <button id="login-btn" type="button">
+                    Log in with Spotify
+                </button>
+            </a>
+        </div>
+    </body>
+{% endblock %}

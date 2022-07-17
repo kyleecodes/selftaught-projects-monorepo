@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static', filename='stylesheet.css')}}">
+        <title>Programming Languages</title>
+    </head>
+    <body>
+        <h2>Programming Languages</h2>
+        <table>
+            <tr>
+                <th>Picture</th>
+                <th>Language</th>
+                <th>Year Made</th>
+            </tr>
+            <tr>
+                <td><img src="{{url_for('static', filename='/images/python.png')}}" alt= "python_logo" width="20%" /></td>
+                <td>Python</td>
+                <td>1991</td>
+            </tr>
+            <tr>
+                <td><img src="{{url_for('static', filename='/images/java.png')}}" alt= "java_logo" width="20%" /></td>
+                <td>Java</td>
+                <td>1996</td>
+            </tr>
+            <tr>
+                <td><img src="{{url_for('static', filename='/images/cpp.png')}}" alt= "cpp_logo" width="20%" /></td>
+                <td>C++</td>
+                <td>1985</td>
+            </tr>
+            <tr>
+                <td><img src="{{url_for('static', filename='/images/rust.png')}}" alt= "rustlang_logo" width="20%" /></td>
+                <td>Rust</td>
+                <td>2006</td>
+            </tr>
+        </table>
+        <!-- Go back button for convenience -->
+        <button onclick="goBack()">Go Back</button>
+    </body>
+    <script> function goBack() {window.history.back();}</script>
+</html>
