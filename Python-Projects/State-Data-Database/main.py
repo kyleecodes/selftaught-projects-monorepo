@@ -1,7 +1,6 @@
 """
 Main module
 Author: Kylee Fields
-Objective: Assignment 3
 """
 
 import sys

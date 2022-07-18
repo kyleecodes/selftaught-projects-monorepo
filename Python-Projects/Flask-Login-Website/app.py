@@ -1,6 +1,5 @@
 """
 Author: Kylee Fields
-Objective: Assignment 8
 """
 import os
 from datetime import date

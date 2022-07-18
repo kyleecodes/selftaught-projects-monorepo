@@ -1,14 +1,13 @@
+# A Collection of Self-Led Projects 
 
-# A collection of projects from university! 
+From early days of learning to code.
+Not ALL projects, just a few I organized well enough in my days of infancy dev documentation.
 
-**Currently there are 25 projects here and 16 links for projects hosted in other repos. Not all projects are assignments.** 
-
-*Projects have varying levels of documentation. Not all projects from uni are shown. I have permission from professors to share these.* 
+25 projects here and 16 links for projects hosted in other repos.
 
 ---
 
-## Projects in other repos:
-*in no particular order*
+## Linked Projects:
 
 - [Spotify API Visualization (Python)](https://github.com/kyleecodes/Spotify-Visualization)
 - [Genius API Lyrics Scraper (Python)](https://github.com/kyleecodes/Lyrics-Scraper)
@@ -26,37 +25,34 @@
 - [Flipping Bits (Assembly)](https://github.com/kyleecodes/Flipping-Bits-in-Assembly)
 - [Binary eFlag Status Program (Assembly)](https://github.com/kyleecodes/Binary-eFlag-Status)
 
-## Projects in this repo:
-*listed in order of file structure.*
+## Repo Projects:
 
 ### Challenges (Misc.):
-- Gatsby Silly Site Challenge (JavaScript)
-- Language of the Month 2020
-### Data Structures (Java):
-- Anaylze Binary Trees
+- LangCatClub - Languages per Month
+- Silly-Site-Gatsby-Challenge
+### Java Projects:
+- AnalyzeBinaryTrees
 - Graphs
-- Java Panels
-- Polynomial Operations
-### Fullstack & Frontend (Reactjs):
-- Adopt Pets React App
-- Fullstack Space API Trivia App
+- JavaPanelReview
+- PolynomialOperations
 ### Operating Systems (Java)
-- Bankers Algorithm Operations
-- File Writer
-- Frame Tests
-- Synchronizing Threads
-- VM Simulator
+- ResourceAllocation
+- FileWriter
+- FrameTest
+- SynchronizeThreads
+- VMSimulator
+### Fullstack Apps:
+- Space-Api-Fullstack-App
+- Adopt-Pets-Fullstack-App
 ### Python Projects:
-- Analyze Census Data
-- ASCII Image Converter
-- Basic Socket Program
-- Fullstack Flask Login Website
-- Genre Identifer 
-- Get Listening History with Spotify API
-- Password Cracking
-- Route Planner
-- Spotify API Flask Blueprint App
-- State Data Database Program
-
+- Analyze-Census-Data
+- ASCII-Image-Converter
+- Flask-Login-Website
+- Genre-Identifer-Spotify
+- Get-Listening-History-AWS
+- Password-Crack-Pylint
+- Route-Planner-Shortest-Path
+- Spotify-Api-Widgets
+- State-Data-Database
 --- 
 

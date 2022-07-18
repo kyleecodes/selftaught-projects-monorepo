@@ -1,6 +1,5 @@
 """
 Author: Kylee Fields
-Objective: Week 4 Project
 """
 import sys
 import re
