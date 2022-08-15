@@ -6,7 +6,7 @@ These projects were done during my time at the University of Maryland pursuing a
 
 **Currently there are 25 projects here and 16 links for projects hosted in other repos. Projects from 2022 not listed yet.** 
 
-*Projects have varying levels of documentation. Not all projects from uni are shown. I have permission from professots to share these.* 
+*Projects have varying levels of documentation. Not all projects from uni are shown. I have permission from professors to share these.* 
 
 ---
 
@@ -66,5 +66,5 @@ These projects were done during my time at the University of Maryland pursuing a
 
 ### Capstone projects (in the making):
 - Rustlang Compiler 
-- Writing my own langauge
+- Writing my own language
 
